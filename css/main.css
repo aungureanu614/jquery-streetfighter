@@ -13,7 +13,6 @@ body{
 }
 
 .ryu{
-	
 	width: 659px;
   height: 494px;
 }
@@ -57,4 +56,26 @@ body{
 
 .ryu-cool{
   background-image: url('../images/ryu-cool.gif');
+}
+
+.instructions{
+  position: absolute;
+  left: 800px;
+  top: 20px;
+  width: 550px;
+  height: 420px;
+}
+.instructions p{
+  width: 50%;
+  font-size: 25px;
+  font-family: 'Indie Flower', sans-serif;
+  padding-top: 40px;
+  font-weight: bold;
+}
+
+.instructions p + p{
+  position: relative;
+  left: 200px;
+  top: 10px;
+
 }
